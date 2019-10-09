@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="accentButton" parent="ThemeOverlay.AppCompat">
+        <item name="colorButtonNormal">@drawable/btn_accent</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- buttons color -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- title and message color  -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- dialog background-->
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:buttonStyle">@style/accentButton</item>
+    </style>
+
+
+</resources>
